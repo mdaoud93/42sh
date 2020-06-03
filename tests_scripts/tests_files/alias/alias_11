@@ -1,0 +1,8 @@
+shopt -s expand_aliases
+
+alias okalm="ls \
+-a"
+okalm
+
+alias okalm="ls\
+-a"okalm

@@ -1,0 +1,11 @@
+cat << eof
+
+\\$NOEXIST\
+$STILLNOT
+hey
+eof
+
+var="\"\""
+<<eof cat
+$var
+cat
